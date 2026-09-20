@@ -1,0 +1,12 @@
+Create two real pages, /privacy and /terms, and connect every "Privacy Policy" and "Terms of Service" link in the footer and registration form to actually navigate there — no more dead href="#" links. Style them consistently with the rest of the site (dark theme, Playfair Display headings, Plus Jakarta Sans body, readable line-length, a table of contents sidebar for long pages).
+
+Use this as the starting content for Privacy Policy (mark it clearly in a comment as a draft requiring legal review before launch):
+
+What we collect: restaurant and owner details at registration (name, phone, email, address); order data (items, tables, timestamps) from customers using the QR menu — no account or personal login required for customers; payment method selection (we do not store card numbers or Chapa/Telebirr credentials)
+Why we collect it: to operate the ordering system, verify restaurant registrations, and send order notifications
+Who we share it with: payment processors (Chapa, Telebirr) only for completing a transaction; we do not sell data to third parties
+Data storage: hosted on Supabase infrastructure; retained as long as the account is active
+Your rights: under Ethiopia's Personal Data Protection Proclamation (No. 1321/2024), users can request access to, correction of, or deletion of their personal data by contacting [support email]
+Contact: [support email/phone placeholder]
+
+For Terms of Service, cover: free trial terms (14 days, no card required — matching what's already on the pricing page), subscription billing in ETB, cancellation policy, acceptable use (no fraudulent orders/menu content), and a limitation-of-liability clause — standard SaaS terms structure, clearly marked as a draft

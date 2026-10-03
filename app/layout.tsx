@@ -6,8 +6,6 @@ import { BrandTransitionRoot } from '../components/brand-loader'
 export const metadata: Metadata = {
   title: "Fetan Order — The calmer way to run your restaurant",
   description: "QR ordering, kitchen coordination, and payments built for Ethiopian restaurants.",
-  title: 'Fetan Order — The calmer way to run your restaurant',
-  description: 'QR ordering, kitchen coordination, and payments built for Ethiopian restaurants.',
   generator: 'v0.app',
   icons: {
     icon: [

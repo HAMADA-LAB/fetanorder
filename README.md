@@ -34,6 +34,7 @@ Guests scan a QR code, order from their phone, and the kitchen, waiters, and cas
 - **Backend / Auth:** Supabase
 - **Charts:** Recharts
 - **Language:** TypeScript
+- **Package manager:** pnpm
 
 ---
 
@@ -47,5 +48,26 @@ fetanorder/
 ├── public/        # Static assets
 └── docs/          # Internal notes
 ```
+
+---
+
+## How to download and run
+
+```bash
+git clone https://github.com/HAMADA-LAB/fetanorder.git
+cd fetanorder
+pnpm install
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+Optional: copy `.env.example` to `.env.local` and add Supabase keys if you want auth connected.
+
+| Command | Description |
+|---------|-------------|
+| `pnpm dev` | Local development server |
+| `pnpm build` | Production build |
+| `pnpm start` | Run production build |
 
 Built for restaurants in Ethiopia.
